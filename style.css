@@ -1,5 +1,6 @@
 body {
     background-color: #A8DADC;
+    padding: 2%
 }
 
 .meu-nome {
@@ -7,43 +8,54 @@ body {
     font-size: 40px;
     font-weight: bold;
     text-align: center;
+    margin-top: auto;
 }
 
 #fotoperfil {
-    width: 100px;
-    padding: 10px 10px;
+    width: 90px;
+    float: left;
+    height: 100px;
+    padding: 10px;
     background-color: #1D3557;
     border-radius: 60%;
-    left: 20px;
-    position: absolute    
 }
 
 .sobre {
-    position: absolute;
-    top: 90px;
-    margin-left: 160px;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 22px
- 
+    font-size: 20px;
+    position: absolute;
+    left: 140px;
+    top: 10%
 }
 
-#indice {
-    position: absolute;
-    top: 400px;
+.image-container {
+    height: 120px;
+    position: relative;
 }
 
-#habilidades {
-    position: absolute;
-    top: 500px;
+#habilidades li:nth-child(odd) {
+    text-decoration: underline;
 }
 
-#blogs {
-    position: absolute;
-    top: 600px;
+h3 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
 }
 
-#english {
-    position: absolute;
-    z-index: 1;
-    top: 700px;
+#habilidades li {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
 }
+
+.english {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+}
+
+h4 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 15px;
+}
+
+
+

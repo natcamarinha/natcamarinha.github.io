@@ -1,0 +1,49 @@
+body {
+    background-color: #A8DADC;
+}
+
+.meu-nome {
+    font-family: 'Mulish', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#fotoperfil {
+    width: 100px;
+    padding: 10px 10px;
+    background-color: #1D3557;
+    border-radius: 60%;
+    left: 20px;
+    position: absolute    
+}
+
+.sobre {
+    position: absolute;
+    top: 90px;
+    margin-left: 160px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px
+ 
+}
+
+#indice {
+    position: absolute;
+    top: 400px;
+}
+
+#habilidades {
+    position: absolute;
+    top: 500px;
+}
+
+#blogs {
+    position: absolute;
+    top: 600px;
+}
+
+#english {
+    position: absolute;
+    z-index: 1;
+    top: 700px;
+}
